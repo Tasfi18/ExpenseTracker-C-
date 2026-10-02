@@ -1,0 +1,18 @@
+{
+  // Press F5 in VS Code to build and debug the Expense Tracker.
+  // "integratedTerminal" is required so Console.ReadLine() can receive your typing.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Expense Tracker",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/bin/Debug/net8.0/ExpenseTracker.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# Build output
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+# Test results / coverage
+TestResults/
+coverage*.xml
+*.coverage
+
+# IDE and OS files
+.vs/
+*.user
+*.suo
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary file written while saving expenses
+Data/*.tmp

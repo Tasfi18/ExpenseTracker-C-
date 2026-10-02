@@ -1,1 +1,123 @@
-[]
+[
+  {
+    "type": "recurring",
+    "frequency": "Monthly",
+    "id": 1,
+    "title": "Apartment rent",
+    "amount": 850.00,
+    "category": "Housing",
+    "date": "2026-09-01T00:00:00",
+    "notes": "Paid by bank transfer"
+  },
+  {
+    "type": "one-time",
+    "id": 2,
+    "title": "Monthly bus pass",
+    "amount": 30.00,
+    "category": "Transport",
+    "date": "2026-09-02T00:00:00",
+    "notes": null
+  },
+  {
+    "type": "one-time",
+    "id": 3,
+    "title": "Groceries at FreshMart",
+    "amount": 54.30,
+    "category": "Food",
+    "date": "2026-09-03T00:00:00",
+    "notes": null
+  },
+  {
+    "type": "recurring",
+    "frequency": "Monthly",
+    "id": 4,
+    "title": "Netflix subscription",
+    "amount": 15.49,
+    "category": "Entertainment",
+    "date": "2026-09-05T00:00:00",
+    "notes": null
+  },
+  {
+    "type": "one-time",
+    "id": 5,
+    "title": "Electricity bill",
+    "amount": 62.75,
+    "category": "Utilities",
+    "date": "2026-09-10T00:00:00",
+    "notes": "August usage"
+  },
+  {
+    "type": "one-time",
+    "id": 6,
+    "title": "Dinner with friends",
+    "amount": 38.20,
+    "category": "Food",
+    "date": "2026-09-12T00:00:00",
+    "notes": "Birthday dinner"
+  },
+  {
+    "type": "one-time",
+    "id": 7,
+    "title": "Pharmacy",
+    "amount": 12.40,
+    "category": "Health",
+    "date": "2026-09-15T00:00:00",
+    "notes": null
+  },
+  {
+    "type": "one-time",
+    "id": 8,
+    "title": "Running shoes",
+    "amount": 89.99,
+    "category": "Shopping",
+    "date": "2026-09-18T00:00:00",
+    "notes": null
+  },
+  {
+    "type": "recurring",
+    "frequency": "Monthly",
+    "id": 9,
+    "title": "Gym membership",
+    "amount": 25.00,
+    "category": "Health",
+    "date": "2026-09-20T00:00:00",
+    "notes": null
+  },
+  {
+    "type": "one-time",
+    "id": 10,
+    "title": "Coffee",
+    "amount": 3.80,
+    "category": "Food",
+    "date": "2026-09-24T00:00:00",
+    "notes": null
+  },
+  {
+    "type": "one-time",
+    "id": 11,
+    "title": "Groceries at FreshMart",
+    "amount": 47.15,
+    "category": "Food",
+    "date": "2026-09-27T00:00:00",
+    "notes": null
+  },
+  {
+    "type": "recurring",
+    "frequency": "Yearly",
+    "id": 12,
+    "title": "Cloud storage plan",
+    "amount": 29.99,
+    "category": "Utilities",
+    "date": "2026-01-15T00:00:00",
+    "notes": null
+  },
+  {
+    "type": "one-time",
+    "id": 13,
+    "title": "Taxi to the airport",
+    "amount": 22.50,
+    "category": "Transport",
+    "date": "2026-10-01T00:00:00",
+    "notes": null
+  }
+]

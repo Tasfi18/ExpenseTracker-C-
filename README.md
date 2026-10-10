@@ -26,7 +26,8 @@ Built with C# 12 on .NET 8 as the course project for FinTrack Solutions. It repl
 ## Getting started
 
 ```bash
-cd ExpenseTracker
+git clone https://github.com/Tasfi18/ExpenseTracker-C-.git
+cd ExpenseTracker-C-
 dotnet run
 ```
 
@@ -170,7 +171,7 @@ The file is written to a temporary file first and then swapped in, so a failed s
 ## Running the tests
 
 ```bash
-dotnet test
+dotnet test ExpenseTracker.sln
 ```
 
 The first run downloads xUnit from NuGet. The test project has 60 test cases in three classes:
@@ -181,7 +182,7 @@ The first run downloads xUnit from NuGet. The test project has 60 test cases in 
 | `ExpenseManagerTests` | Adding expenses, totals and averages, totals after removal, the three search overloads, filtering, sorting, grouping, budget summary, error cases |
 | `FileServiceTests` | Async save and load round trip, restoring after a "restart", missing, empty and corrupted files |
 
-File tests use a temporary folder, so they never change `Data/expenses.json`.
+File tests use a temporary folder, so they never change `Data/expenses.json`. GitHub Actions builds the solution and runs the tests on every push and pull request.
 
 In VS Code you can also run the tests from the **Testing** panel (beaker icon), or with **Terminal → Run Task → test**.
 
@@ -191,7 +192,7 @@ In VS Code you can also run the tests from the **Testing** panel (beaker icon), 
 
 A short exercise that uses every debugger tool:
 
-1. Open the `ExpenseTracker` folder in VS Code.
+1. Open the project folder in VS Code.
 2. **Breakpoints**: click in the left margin to set a red dot on these lines:
    - `Program.cs`, inside `ReadValidAmount`: the line `if (!decimal.TryParse(digits, ...`
    - `Services/ExpenseManager.cs`, inside `AddExpense(Expense expense)`: the line `expense.Validate();`
